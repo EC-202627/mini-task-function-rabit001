@@ -7,8 +7,6 @@ def calculate_fine(book_title, days_overdue, daily_rate=5.0, max_fine=150.0):
         capped = True
 
     return fine, capped
-
-
 book_title = input().strip()
 days_overdue = int(input().strip())
 
